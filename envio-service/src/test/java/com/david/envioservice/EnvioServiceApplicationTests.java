@@ -1,10 +1,10 @@
-package com.david.pedidoservice;
+package com.david.envioservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PedidoServiceApplicationTests {
+class EnvioServiceApplicationTests {
 
     @Test
     void contextLoads() {

@@ -1,0 +1,14 @@
+services:
+  kafka:
+    image: apache/kafka:latest
+    ports:
+      - "9092:9092"
+
+  postgres:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: pedidos
+      POSTGRES_PASSWORD: asdr322adfads_fd*dfa
+      POSTGRES_DB: ecommerce_db
