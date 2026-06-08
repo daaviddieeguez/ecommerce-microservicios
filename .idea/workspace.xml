@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b75c638-d856-4a46-b5db-14ed0a71b9ee" name="Changes" comment="Creado todos los microservicios y conectados entre si. Añadida Gateway">
+    <list default="true" id="8b75c638-d856-4a46-b5db-14ed0a71b9ee" name="Changes" comment="Gitignore actualizado">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envio-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/envio-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envio-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/envio-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pago-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pago-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pago-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pago-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedido-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pedido-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedido-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pedido-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,15 +113,17 @@
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
+              <entry key="DiscoveryServerApplication" value="STOPPED" />
               <entry key="EnvioServiceApplication" value="STOPPED" />
               <entry key="PagoServiceApplication" value="STOPPED" />
+              <entry key="PedidoServiceApplication" value="STOPPED" />
             </map>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryServerApplication">
+  <component name="RunManager" selected="Spring Boot.PedidoServiceApplication">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -155,6 +161,13 @@
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
+    </configuration>
+    <configuration name="DiscoveryServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery-server (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.david.discoveryserver.DiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="discovery-server" />
@@ -264,7 +277,7 @@
       <workItem from="1780737615417" duration="819000" />
       <workItem from="1780738459539" duration="6694000" />
       <workItem from="1780904483919" duration="3133000" />
-      <workItem from="1780907648471" duration="5247000" />
+      <workItem from="1780907648471" duration="7656000" />
     </task>
     <task id="LOCAL-00001" summary="Creado el microservicio de pedido">
       <option name="closed" value="true" />
@@ -282,7 +295,23 @@
       <option name="project" value="LOCAL" />
       <updated>1780911557184</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Eureka instalado">
+      <option name="closed" value="true" />
+      <created>1780914263170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1780914263170</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Gitignore actualizado">
+      <option name="closed" value="true" />
+      <created>1780914279277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780914279277</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +331,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creado el microservicio de pedido" />
     <MESSAGE value="Creado todos los microservicios y conectados entre si. Añadida Gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creado todos los microservicios y conectados entre si. Añadida Gateway" />
+    <MESSAGE value="Eureka instalado" />
+    <MESSAGE value="Gitignore actualizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gitignore actualizado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
