@@ -29,6 +29,7 @@
         <module>pago-service</module>
         <module>envio-service</module>
         <module>gateway-service</module>
+        <module>discovery-server</module>
     </modules>
 
 </project>
